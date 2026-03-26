@@ -9,3 +9,15 @@ ReservationSystem::ReservationSystem(int room_count, int* room_capacities) {
 ReservationSystem::~ReservationSystem(){
     
 }
+
+bool ReservationSystem::reserve(ReservationRequest request){
+        int start_hour = request.getStartHour();
+        int end_hour = request.getEndHour();
+        int student_count = request.getStudentCount();
+        std:: string  weekday = request.getWeekday();
+        std:: string course_name  = request.getCourseName();
+        
+        
+
+
+};
