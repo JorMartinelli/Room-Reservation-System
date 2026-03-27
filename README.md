@@ -15,4 +15,4 @@ O projeto foi dividido em múltiplos arquivos (`.hpp` e `.cpp`) para separar a d
 Para compilar o projeto inteiro, abra o terminal na pasta raiz do repositório e utilize o compilador GCC (`g++`) com o seguinte comando:
 
 ```bash
-g++ main.cpp -o sistema_reservas.exe
+g++ main.cpp ReservationSystem.cpp ReservationRequest.cpp -o reservation_system

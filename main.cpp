@@ -1,8 +1,8 @@
 // Arquivo principal contendo testes para todas as funções implementadas
 
 #include <iostream>
-#include "ReservationSystem.cpp"
-#include "ReservationRequest.cpp"
+#include "ReservationSystem.hpp"
+#include "ReservationRequest.hpp"
 
 int main() {
     int room_count = 4;
